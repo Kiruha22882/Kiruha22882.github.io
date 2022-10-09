@@ -1,4 +1,10 @@
-.topheader {
+ @font-face {
+    font-family: 'bignoodletitling';
+    src: url('font/bignoodletitling.ttf');
+    font-weight: normal;
+    font-style: normal;
+ }
+ .topheader {
     z-index: 99999;
     position: fixed;
     width: 100%;
@@ -34,10 +40,12 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     line-height: initial;
+    font-family: 'bignoodletitling';
 }
 
 ul {
     list-style: none;
+    font-family: 'bignoodletitling';
 }
 
 .banner {
@@ -75,4 +83,52 @@ ul {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 700;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-family: 'bignoodletitling';
+}
+.head_white_content span {
+    display: inline-block;
+background-color: #f15324;
+width: 153px;
+height: 3.5px;
+}
+.head_white_content {
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+}
+.head_white_content p {
+    padding: 20px 90px 0px;
+    color: #696969;
+}
+.aboutus {
+    margin-bottom: 90px;
+}
+.advantage {
+    text-align: center;
+    width: 100%;
+    background: #e7e5e5;
+    padding: 30px;
+    margin: 3% 0;
+}
+.advantage span {
+    font-size: 60px;
+    color: #f4511e;
+
+}
+.advantage h4 {
+    font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0.25px;
+color: #707070;
+padding: 25px 0 13px;
+}
+.advantage p {
+    color: #707070;
+    font-size: 14px;
+    line-height: 100%;
 }
