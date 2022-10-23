@@ -17,7 +17,7 @@
      font-size: 14px;
      line-height: 100%;
      font-weight: 300;
-     color: #387c00;
+     color: #064b00;
  }
 
  .logo {
@@ -191,53 +191,7 @@
      margin: 20px 0;
  }
 
- .kill {
-     position: relative;
-     top: 10px;
-     left: 150px;
-     width: 250px;
-     height: 100px;
-     text-align: center;
-     align-self: center;
-     margin-left: -1px;
-     margin-top: -1px;
- }
 
- .lala {
-     position: relative;
-     top: -89px;
-     left: 560px;
-     width: 250px;
-     height: 100px;
-     text-align: center;
-     align-self: center;
-     margin-left: -1px;
-     margin-top: -1px;
- }
-
- .holl {
-     position: relative;
-     top: -188px;
-     left: 950px;
-     width: 250px;
-     height: 350px;
-     text-align: center;
-     align-self: center;
-     margin-left: -1px;
-     margin-top: -1px;
- }
-
- .haha {
-     position: relative;
-     top: -537px;
-     left: 1370px;
-     width: 250px;
-     height: 300px;
-     text-align: center;
-     align-self: center;
-     margin-left: -1px;
-     margin-top: -1px;
- }
  .price-content-head {
     background-color: #0e1316;
     color: #ffffff;
@@ -283,4 +237,7 @@
  }
  .price-content:hover .price-content-body>p>span {
     color: #f4511e;
+ }
+ .price-content {
+    border: 1px solid #171f23;
  }
